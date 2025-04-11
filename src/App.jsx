@@ -14,12 +14,12 @@ function App() {
 		<div className="min-h-screen">
 			<Toaster position="top-center" />
 			<Routes>
-				<Route path="/" element={Layout} />
-				<Route path="/login" element={Login} />
-				<Route path="/register" element={Register} />
-				<Route path="/forgotPassword" element={ForgotPassword} />
-				<Route path="changePassword" element={ChangePassword} />
-				<Route path="/admin" element={AdminPanel} />
+				<Route path="/" element={<Layout />} />
+				<Route path="/login" element={<Login />} />
+				<Route path="/register" element={<Register />} />
+				<Route path="/forgotPassword" element={<ForgotPassword />} />
+				<Route path="changePassword" element={<ChangePassword />} />
+				<Route path="/admin" element={<AdminPanel />} />
 			</Routes>
 		</div>
 	);
