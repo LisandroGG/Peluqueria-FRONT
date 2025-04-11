@@ -1,14 +1,10 @@
+export const initialState = {};
 
-export const initialState = {
-
-};
-
-function rootReducer(state = initialState, action) {
-    switch(action.type) {
-
-    default:
-        return state;
-    };
-};
+function rootReducer(action, state = initialState) {
+	switch (action.type) {
+		default:
+			return state;
+	}
+}
 
 export default rootReducer;
